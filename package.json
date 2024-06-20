@@ -1,14 +1,14 @@
 {"homepage": "https://Piyushk8.github.io/Password-Generator",
   "name": "passgen",
-  "private": false,
+  "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
-  "deploy": "gh-pages -d build",
+  "deploy": "gh-pages -d dist",
   "start": "react-scripts start",
-  "build": "react-scripts build",
-  "test": "react-scripts test",
+  "build": "vite build",
+  
   "eject": "react-scripts eject",
 
     "dev": "vite",
